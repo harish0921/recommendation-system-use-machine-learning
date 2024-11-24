@@ -30,36 +30,6 @@ bash
 pip install -r requirements.txt
 
 Usage
-Preprocess the dataset:
-Clean and format the data for training and evaluation.
-Handle missing values and normalize features if required.
-Run the script to train models:
-bash
-Usage
-Preprocess the dataset:
-Clean and format the data for training and evaluation.
-Handle missing values and normalize features if required.
-Run the script to train models:
-bash
-Evaluate the performance:
-Metrics such as RMSE and Precision@K will be displayed.
-Generate recommendations:
-Use the predict.py script to generate recommendations for users.
-Folder Structure
-recommendation-system-ml/
-├── data/
-│   ├── raw/               # Raw datasets
-│   ├── processed/         # Processed datasets
-├── models/                # Saved models
-├── notebooks/             # Jupyter notebooks for experimentation
-├── src/
-│   ├── preprocess.py      # Data preprocessing scripts
-│   ├── train_model.py     # Training scripts
-│   ├── predict.py         # Prediction scripts
-├── requirements.txt       # List of required libraries
-├── README.md              # Project documentation
-Results
-The models achieve the following performance on the test dataset:
 
 Collaborative Filtering: RMSE = 0.85
 Content-Based Filtering: Precision@10 = 72%
