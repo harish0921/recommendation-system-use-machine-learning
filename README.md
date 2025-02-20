@@ -22,7 +22,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/recommendation-system-ml.git
+git clone https://github.com/Harish0921/recommendation-system-ml.git
 cd recommendation-system-ml
 
 Install the dependencies:
